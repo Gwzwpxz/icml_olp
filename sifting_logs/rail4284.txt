@@ -1,0 +1,252 @@
+ ***************************************************************
+ ******************** Cplex Sifting Framework ******************
+ ***************************************************************
+
+******   Initial Column Selection ******
+
+********** Column Initialization start ***********
+* Summary: 90332 out of 1090526 initial columns are selected
+
+******   Initial Column Selection Done ******
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 11 rows and 8353 columns.
+Reduced LP has 4165 rows, 90331 columns, and 865956 nonzeros.
+Presolve time = 0.27 sec. (225.31 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =   60000000002.000000
+Iteration:   539   Dual objective     =   60000000256.000000
+Iteration:   956   Dual objective     =   60000000368.000000
+Iteration:  1302   Dual objective     =   60000000436.000000
+Iteration:  1567   Dual objective     =   60000000479.000000
+Iteration:  1885   Dual objective     =   60000000529.000000
+Iteration:  2182   Dual objective     =   60000000560.000000
+Perturbation started.
+Iteration:  2303   Dual objective     =   60000000563.000000
+Iteration:  2685   Dual objective     =   60000000617.999992
+Iteration:  2997   Dual objective     =   60000000670.000069
+Iteration:  3162   Dual objective     =   60000000670.000069
+Iteration:  3319   Dual objective     =   60000000670.000175
+Iteration:  3462   Dual objective     =   60000000670.000175
+Iteration:  3603   Dual objective     =   60000000670.000175
+Iteration:  3736   Dual objective     =   60000000670.000183
+Iteration:  3869   Dual objective     =   60000000670.000397
+Iteration:  4000   Dual objective     =   60000000670.000397
+Iteration:  4136   Dual objective     =   60000000670.000404
+Iteration:  4271   Dual objective     =   60000000670.000435
+Iteration:  4406   Dual objective     =   60000000670.000916
+Iteration:  4538   Dual objective     =   60000000670.001007
+Iteration:  4674   Dual objective     =   60000000670.001266
+Iteration:  4815   Dual objective     =   60000000670.002129
+Iteration:  4954   Dual objective     =   60000000670.003174
+Iteration:  5095   Dual objective     =   60000000670.004715
+Iteration:  5234   Dual objective     =   60000000670.006798
+Iteration:  5382   Dual objective     =   60000000670.010635
+Iteration:  5533   Dual objective     =   60000000670.020096
+Removing perturbation.
+
+Barrier solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 1
+* RMP Solution Summary: 
+* RMP Size: 90332 + 8352 (Auxiliary) (98684) out of 1090526 columns
+* RMP without auxiliary variables is infeasible
+*************************************************
+
+* Summary: Iteration 1 takes 5.564084529876709 seconds
+
+
+* Begin sifting iteration 2
+* Current objective: 60000001040.18188
+* Strategy added 43389 columns and there are 133721 columns in the working problem
+* Strategy removed 0 columns and there are 133721 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =  680000011183.806885
+Iteration:   168   Dual infeasibility =  390000002946.400024
+
+Barrier solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 2
+* RMP Solution Summary: 
+* RMP Size: 133721 + 8352 (Auxiliary) (142073) out of 1090526 columns
+* RMP Objective: 1034.505433563306
+*************************************************
+
+* Summary: Iteration 3 takes 5.310150861740112 seconds
+
+* Begin sifting iteration 3
+* Current objective: 1034.505433563306
+* Strategy added 235 columns and there are 133956 columns in the working problem
+* Strategy removed 0 columns and there are 133956 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =            10.528051
+Iteration:   179   Dual infeasibility =             5.481705
+Iteration:   343   Dual infeasibility =             4.092851
+Iteration:   504   Dual infeasibility =             3.402794
+Iteration:   660   Dual infeasibility =             3.040636
+Iteration:   823   Dual infeasibility =             2.656856
+Iteration:   972   Dual infeasibility =             2.288233
+Iteration:  1129   Dual infeasibility =             1.924005
+Iteration:  1289   Dual infeasibility =             1.641352
+Iteration:  1449   Dual infeasibility =             1.306222
+Iteration:  1610   Dual infeasibility =             1.060739
+Iteration:  1764   Dual infeasibility =             0.577085
+
+Barrier solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 3
+* RMP Solution Summary: 
+* RMP Size: 133956 + 8352 (Auxiliary) (142308) out of 1090526 columns
+* RMP Objective: 1034.0624873675401
+*************************************************
+
+* Summary: Iteration 4 takes 5.848805904388428 seconds
+
+* Begin sifting iteration 4
+* Current objective: 1034.0624873675401
+* Strategy added 177 columns and there are 134133 columns in the working problem
+* Strategy removed 0 columns and there are 134133 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             1.460760
+Iteration:   163   Dual infeasibility =             0.166390
+Iteration:   312   Dual infeasibility =             0.073494
+
+Primal simplex solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 4
+* RMP Solution Summary: 
+* RMP Size: 134133 + 8352 (Auxiliary) (142485) out of 1090526 columns
+* RMP Objective: 1034.0545102476588
+*************************************************
+
+* Summary: Iteration 5 takes 2.158400058746338 seconds
+
+* Begin sifting iteration 5
+* Current objective: 1034.0545102476588
+* Strategy added 92 columns and there are 134225 columns in the working problem
+* Strategy removed 0 columns and there are 134225 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Iteration log . . .
+Iteration:     1   Dual infeasibility =             0.753224
+
+Primal simplex solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 5
+* RMP Solution Summary: 
+* RMP Size: 134225 + 8352 (Auxiliary) (142577) out of 1090526 columns
+* RMP Objective: 1034.054491274843
+*************************************************
+
+* Summary: Iteration 6 takes 1.4921658039093018 seconds
+
+* Begin sifting iteration 6
+* Current objective: 1034.054491274843
+* Strategy added 26 columns and there are 134251 columns in the working problem
+* Strategy removed 0 columns and there are 134251 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Dual simplex solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 6
+* RMP Solution Summary: 
+* RMP Size: 134251 + 8352 (Auxiliary) (142603) out of 1090526 columns
+* RMP Objective: 1034.054491274843
+*************************************************
+
+* Summary: Iteration 7 takes 1.1414892673492432 seconds
+
+* Begin sifting iteration 7
+* Current objective: 1034.054491274843
+* Strategy added 15 columns and there are 134266 columns in the working problem
+* Strategy removed 0 columns and there are 134266 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Dual simplex solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 7
+* RMP Solution Summary: 
+* RMP Size: 134266 + 8352 (Auxiliary) (142618) out of 1090526 columns
+* RMP Objective: 1034.054491274843
+*************************************************
+
+* Summary: Iteration 8 takes 1.1310486793518066 seconds
+
+************* Sifting framework successfully ends *************
+* Solution Summary: 
+* Objective value                   : 1034.054491274843
+* Total number of sifting iterations: 8
+***************************************************************
+* Iteration Summary:
+- Sifting iteration 1: 5.564084529876709 seconds
+- Sifting iteration 2: 5.310150861740112 seconds
+- Sifting iteration 3: 5.848805904388428 seconds
+- Sifting iteration 4: 2.158400058746338 seconds
+- Sifting iteration 5: 1.4921658039093018 seconds
+- Sifting iteration 6: 1.1414892673492432 seconds
+- Sifting iteration 7: 1.1310486793518066 seconds
+- Total solution time: 22.64614510536194 seconds
+***************************************************************

@@ -1,0 +1,405 @@
+ ***************************************************************
+ ******************** Cplex Sifting Framework ******************
+ ***************************************************************
+
+
+******   Initial Column Selection ******
+
+********** Column Initialization start ***********
+* Summary: 1221 out of 364203 initial columns are selected
+
+******   Initial Column Selection Done ******
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 30 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 14502 rows and 30225 columns.
+All rows and columns eliminated.
+Presolve time = 0.01 sec. (7.63 ticks)
+
+Dual simplex solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 1
+* RMP Solution Summary: 
+* RMP Size: 1221 + 29004 (Auxiliary) (30225) out of 364203 columns
+* RMP without auxiliary variables is infeasible
+*************************************************
+
+* Summary: Iteration 1 takes 0.1835618019104004 seconds
+
+
+* Begin sifting iteration 2
+* Current objective: 20000000000.0
+* Strategy added 251000 columns and there are 252221 columns in the working problem
+* Strategy removed 0 columns and there are 252221 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas = 352139999999932.625000
+Perturbation started.
+Iteration:   505   Scaled dual infeas =  643087037037.109375
+Iteration:  1834   Scaled dual infeas =  609752777777.832031
+Iteration:  3163   Scaled dual infeas =  583500000000.040405
+Iteration:  4474   Scaled dual infeas =   41166666666.688446
+Iteration:  5304   Scaled dual infeas =   25833333333.347099
+Iteration:  6561   Scaled dual infeas =   19833333333.339352
+Iteration:  6721   Dual objective     = -56291094741560.843750
+Iteration:  7921   Dual objective     = -3656859014606.432129
+Iteration:  9068   Dual objective     = -705787640902.005249
+Iteration:  9954   Dual objective     = -334351851852.022583
+Iteration: 10608   Dual objective     = -224351851852.000061
+Iteration: 11132   Dual objective     = -169074074074.226257
+Iteration: 11638   Dual objective     = -130000000000.166290
+Iteration: 12076   Dual objective     = -115000000000.170746
+Iteration: 12556   Dual objective     =  -95000000000.178055
+Iteration: 12959   Dual objective     =  -93333333333.510712
+Iteration: 13380   Dual objective     =  -93333333333.508743
+Iteration: 13782   Dual objective     =  -93333333333.507767
+Iteration: 14073   Dual objective     =  -93333333333.506866
+Iteration: 14425   Dual objective     =  -93333333333.505371
+Iteration: 14824   Dual objective     =  -93333333333.503357
+Iteration: 15261   Dual objective     =  -93333333333.502045
+Iteration: 15619   Dual objective     =  -93333333333.501572
+Iteration: 16006   Dual objective     =  -87500000000.167206
+Iteration: 16373   Dual objective     =  -87500000000.165497
+Iteration: 16786   Dual objective     =  -87500000000.164642
+Iteration: 17190   Dual objective     =  -87500000000.163605
+Iteration: 17529   Dual objective     =  -87500000000.162598
+Iteration: 17812   Dual objective     =  -87500000000.162338
+Iteration: 18249   Dual objective     =  -84000000000.162201
+Iteration: 18620   Dual objective     =  -79444444444.609604
+Iteration: 18994   Dual objective     =  -79444444444.608749
+Iteration: 19372   Dual objective     =  -79444444444.607849
+Iteration: 19763   Dual objective     =  -79444444444.607300
+Iteration: 20140   Dual objective     =  -79444444444.606583
+Iteration: 20509   Dual objective     =  -79444444444.603012
+Iteration: 20867   Dual objective     =  -78500000000.157410
+Iteration: 21195   Dual objective     =  -78500000000.156982
+Elapsed time = 8.68 sec. (10000.75 ticks, 21355 iterations)
+Iteration: 21536   Dual objective     =  -78500000000.156357
+Iteration: 22005   Dual objective     =  -78500000000.155731
+Iteration: 22327   Dual objective     =  -78500000000.155426
+Iteration: 22688   Dual objective     =  -78500000000.156403
+Iteration: 23000   Dual objective     =  -78500000000.156006
+Iteration: 23439   Dual objective     =  -78333333333.489517
+Iteration: 23797   Dual objective     =  -78333333333.488129
+Iteration: 24190   Dual objective     =  -78333333333.486237
+Iteration: 24550   Dual objective     =  -78333333333.483917
+Iteration: 24901   Dual objective     =  -78333333333.482956
+Removing perturbation.
+
+Barrier solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 2
+* RMP Solution Summary: 
+* RMP Size: 252221 + 29004 (Auxiliary) (281225) out of 364203 columns
+* RMP Objective: -0.16821331550923221
+*************************************************
+
+* Summary: Iteration 3 takes 12.642881155014038 seconds
+
+* Begin sifting iteration 3
+* Current objective: -0.16821331550923221
+* Strategy added 60076 columns and there are 312297 columns in the working problem
+* Strategy removed 0 columns and there are 312297 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas = 194040000000034.593750
+Iteration:   363   Scaled dual infeas = 186699999999973.937500
+Iteration:   947   Scaled dual infeas = 173779999999970.156250
+Iteration:  1024   Scaled dual infeas = 173779999999970.031250
+Perturbation started.
+Iteration: 16901   Scaled dual infeas =            11.230172
+Iteration: 17288   Scaled dual infeas =             7.375425
+Iteration: 17667   Scaled dual infeas =             5.582818
+Iteration: 18058   Scaled dual infeas =             4.408643
+Iteration: 18452   Scaled dual infeas =             3.629606
+Iteration: 18856   Scaled dual infeas =             3.189372
+Iteration: 19221   Scaled dual infeas =             2.777714
+Iteration: 19635   Scaled dual infeas =             2.522750
+Iteration: 22982   Scaled dual infeas =             0.483014
+Iteration: 23420   Scaled dual infeas =             0.425148
+Iteration: 23859   Scaled dual infeas =             0.371675
+Iteration: 24266   Scaled dual infeas =             0.332412
+Iteration: 24747   Scaled dual infeas =             0.309884
+Iteration: 25203   Scaled dual infeas =             0.287211
+Iteration: 25206   Scaled dual infeas =             0.287200
+Iteration: 25764   Scaled dual infeas =             0.271197
+Iteration: 26208   Scaled dual infeas =             0.253493
+Elapsed time = 6.95 sec. (10079.63 ticks, 26341 iterations)
+Iteration: 26603   Scaled dual infeas =             0.236706
+Iteration: 27058   Scaled dual infeas =             0.223523
+Iteration: 27088   Scaled dual infeas =             0.222160
+Iteration: 27092   Scaled dual infeas =             0.222057
+Iteration: 27095   Scaled dual infeas =             0.221983
+Iteration: 27115   Scaled dual infeas =             0.221456
+Iteration: 27515   Scaled dual infeas =             0.212291
+Iteration: 27927   Scaled dual infeas =             0.204521
+Iteration: 28358   Scaled dual infeas =             0.198206
+Iteration: 28523   Scaled dual infeas =             0.194327
+Iteration: 28535   Scaled dual infeas =             0.194309
+Iteration: 28540   Scaled dual infeas =             0.194288
+Iteration: 29202   Scaled dual infeas =             0.182952
+Iteration: 29801   Scaled dual infeas =             0.173233
+Iteration: 30462   Scaled dual infeas =             0.163696
+Iteration: 30685   Scaled dual infeas =             0.160065
+Iteration: 31216   Scaled dual infeas =             0.151650
+Iteration: 31554   Scaled dual infeas =             0.147344
+Iteration: 31598   Scaled dual infeas =             0.147051
+Iteration: 31607   Scaled dual infeas =             0.146885
+Iteration: 32019   Scaled dual infeas =             0.141249
+Iteration: 32373   Scaled dual infeas =             0.137070
+Iteration: 32377   Scaled dual infeas =             0.137975
+Iteration: 33142   Scaled dual infeas =             0.090988
+Iteration: 33720   Scaled dual infeas =             0.086844
+Iteration: 34259   Scaled dual infeas =             0.084598
+Iteration: 34430   Scaled dual infeas =             0.080462
+Iteration: 35078   Scaled dual infeas =             0.063533
+Iteration: 35709   Scaled dual infeas =             0.057931
+Iteration: 35815   Scaled dual infeas =             0.056873
+Iteration: 36374   Scaled dual infeas =             0.052878
+Iteration: 36994   Scaled dual infeas =             0.049860
+Iteration: 37647   Scaled dual infeas =             0.046079
+Iteration: 37774   Scaled dual infeas =             0.045230
+Iteration: 38382   Scaled dual infeas =             0.042586
+Iteration: 39162   Scaled dual infeas =             0.025409
+Removing perturbation.
+
+Primal simplex solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 3
+* RMP Solution Summary: 
+* RMP Size: 312297 + 29004 (Auxiliary) (341301) out of 364203 columns
+* RMP Objective: -0.17100973390630503
+*************************************************
+
+* Summary: Iteration 4 takes 11.498101234436035 seconds
+
+* Begin sifting iteration 4
+* Current objective: -0.17100973390630503
+* Strategy added 5515 columns and there are 317812 columns in the working problem
+* Strategy removed 0 columns and there are 317812 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =             0.411907
+Iteration:   441   Scaled dual infeas =             0.246052
+Perturbation started.
+Iteration:  3918   Scaled dual infeas =             0.003639
+Iteration:  4431   Scaled dual infeas =             0.001857
+Iteration:  5021   Scaled dual infeas =             0.001018
+Iteration:  5637   Scaled dual infeas =             0.000659
+Iteration:  6359   Scaled dual infeas =             0.000406
+Iteration:  7037   Scaled dual infeas =             0.000239
+Iteration:  7781   Scaled dual infeas =             0.000134
+Iteration:  8402   Dual objective     =            -0.419011
+Iteration:  8826   Dual objective     =            -0.328668
+Iteration:  9238   Dual objective     =            -0.292291
+Iteration:  9625   Dual objective     =            -0.274614
+Iteration: 10008   Dual objective     =            -0.262020
+Iteration: 10383   Dual objective     =            -0.250921
+Iteration: 10804   Dual objective     =            -0.235882
+Iteration: 11263   Dual objective     =            -0.216819
+Iteration: 11617   Dual objective     =            -0.212321
+Iteration: 11963   Dual objective     =            -0.206801
+Iteration: 12309   Dual objective     =            -0.199858
+Iteration: 12655   Dual objective     =            -0.197507
+Iteration: 13068   Dual objective     =            -0.194742
+Iteration: 13489   Dual objective     =            -0.190311
+Iteration: 13886   Dual objective     =            -0.188264
+Iteration: 14323   Dual objective     =            -0.186457
+Iteration: 14698   Dual objective     =            -0.185198
+Iteration: 15123   Dual objective     =            -0.184418
+Iteration: 15555   Dual objective     =            -0.183498
+Iteration: 15954   Dual objective     =            -0.182475
+Iteration: 16393   Dual objective     =            -0.182007
+Iteration: 16812   Dual objective     =            -0.181769
+Iteration: 17177   Dual objective     =            -0.181568
+Iteration: 17623   Dual objective     =            -0.181415
+Iteration: 18053   Dual objective     =            -0.181296
+Iteration: 18494   Dual objective     =            -0.181074
+Iteration: 18941   Dual objective     =            -0.180781
+Iteration: 19326   Dual objective     =            -0.180191
+Iteration: 19780   Dual objective     =            -0.179796
+Iteration: 20212   Dual objective     =            -0.179652
+Iteration: 20599   Dual objective     =            -0.179499
+Iteration: 21035   Dual objective     =            -0.179356
+Iteration: 21413   Dual objective     =            -0.179153
+Iteration: 21824   Dual objective     =            -0.178950
+Iteration: 22262   Dual objective     =            -0.178656
+Iteration: 22632   Dual objective     =            -0.178555
+Iteration: 23102   Dual objective     =            -0.177900
+Iteration: 23519   Dual objective     =            -0.176388
+Iteration: 23947   Dual objective     =            -0.175760
+Iteration: 24415   Dual objective     =            -0.175216
+Iteration: 24898   Dual objective     =            -0.174818
+Iteration: 25361   Dual objective     =            -0.174506
+Iteration: 25784   Dual objective     =            -0.174268
+Iteration: 26204   Dual objective     =            -0.174011
+Removing perturbation.
+
+Primal simplex solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 4
+* RMP Solution Summary: 
+* RMP Size: 317812 + 29004 (Auxiliary) (346816) out of 364203 columns
+* RMP Objective: -0.17104243118074688
+*************************************************
+
+* Summary: Iteration 5 takes 8.116069078445435 seconds
+
+* Begin sifting iteration 5
+* Current objective: -0.17104243118074688
+* Strategy added 1285 columns and there are 319097 columns in the working problem
+* Strategy removed 0 columns and there are 319097 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =             0.046102
+Removing shift (1361).
+
+Primal simplex solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 5
+* RMP Solution Summary: 
+* RMP Size: 319097 + 29004 (Auxiliary) (348101) out of 364203 columns
+* RMP Objective: -0.17109674376807316
+*************************************************
+
+* Summary: Iteration 6 takes 1.8364555835723877 seconds
+
+* Begin sifting iteration 6
+* Current objective: -0.17109674376807316
+* Strategy added 505 columns and there are 319602 columns in the working problem
+* Strategy removed 0 columns and there are 319602 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =             0.011179
+Iteration:   197   Dual objective     =            -0.172065
+Removing shift (157).
+
+Primal simplex solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 6
+* RMP Solution Summary: 
+* RMP Size: 319602 + 29004 (Auxiliary) (348606) out of 364203 columns
+* RMP Objective: -0.17109674376807318
+*************************************************
+
+* Summary: Iteration 7 takes 1.5197265148162842 seconds
+
+* Begin sifting iteration 7
+* Current objective: -0.17109674376807318
+* Strategy added 38 columns and there are 319640 columns in the working problem
+* Strategy removed 0 columns and there are 319640 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =             0.000410
+Iteration:    20   Dual objective     =            -0.171188
+
+Primal simplex solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 7
+* RMP Solution Summary: 
+* RMP Size: 319640 + 29004 (Auxiliary) (348644) out of 364203 columns
+* RMP Objective: -0.17109674376807318
+*************************************************
+
+* Summary: Iteration 8 takes 1.4972834587097168 seconds
+
+* Begin sifting iteration 8
+* Current objective: -0.17109674376807318
+* Strategy added 2 columns and there are 319642 columns in the working problem
+* Strategy removed 0 columns and there are 319642 columns in the working problem
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+
+Dual simplex solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 8
+* RMP Solution Summary: 
+* RMP Size: 319642 + 29004 (Auxiliary) (348646) out of 364203 columns
+* RMP Objective: -0.1710967437680731
+*************************************************
+
+* Summary: Iteration 9 takes 1.0099716186523438 seconds
+
+************* Sifting framework successfully ends *************
+* Solution Summary: 
+* Objective value                   : -0.1710967437680731
+* Total number of sifting iterations: 9
+***************************************************************
+* Iteration Summary:
+- Sifting iteration 1: 0.1835618019104004 seconds
+- Sifting iteration 2: 12.642881155014038 seconds
+- Sifting iteration 3: 11.498101234436035 seconds
+- Sifting iteration 4: 8.116069078445435 seconds
+- Sifting iteration 5: 1.8364555835723877 seconds
+- Sifting iteration 6: 1.5197265148162842 seconds
+- Sifting iteration 7: 1.4972834587097168 seconds
+- Sifting iteration 8: 1.0099716186523438 seconds
+- Total solution time: 38.30405044555664 seconds
+***************************************************************

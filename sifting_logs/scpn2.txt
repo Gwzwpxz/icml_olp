@@ -1,0 +1,94 @@
+ ***************************************************************
+ ******************** Cplex Sifting Framework ******************
+ ***************************************************************
+
+******   Initial Column Selection ******
+
+********** Column Initialization start ***********
+* Summary: 84553 out of 1000000 initial columns are selected
+
+******   Initial Column Selection Done ******
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+Parallel mode: deterministic, using up to 32 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+ * Starting Sifting on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 5000 columns.
+Reduced LP has 5000 rows, 89553 columns, and 1142572 nonzeros.
+Presolve time = 0.30 sec. (190.80 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             1.000000
+Iteration:   502   Dual objective     =            85.625000
+Iteration:   956   Dual objective     =           122.125000
+Iteration:  1165   Dual objective     =           139.328046
+Iteration:  1370   Dual objective     =           157.548839
+Iteration:  1596   Dual objective     =           174.879173
+Iteration:  1772   Dual objective     =           188.117498
+Iteration:  1911   Dual objective     =           197.473060
+Iteration:  2040   Dual objective     =           203.155005
+Iteration:  2189   Dual objective     =           205.269905
+Iteration:  2349   Dual objective     =           207.072502
+Iteration:  2505   Dual objective     =           208.673181
+Iteration:  2655   Dual objective     =           210.180133
+Iteration:  2794   Dual objective     =           211.511382
+Iteration:  2935   Dual objective     =           212.981749
+Iteration:  3061   Dual objective     =           214.531949
+Iteration:  3186   Dual objective     =           216.011728
+Iteration:  3305   Dual objective     =           217.112194
+Iteration:  3425   Dual objective     =           218.806517
+Iteration:  3549   Dual objective     =           219.658975
+Iteration:  3662   Dual objective     =           221.155701
+Iteration:  3780   Dual objective     =           222.506165
+Iteration:  3897   Dual objective     =           223.530970
+Iteration:  4009   Dual objective     =           224.789783
+Iteration:  4117   Dual objective     =           226.002190
+Iteration:  4231   Dual objective     =           227.738391
+Iteration:  4342   Dual objective     =           228.928921
+Iteration:  4450   Dual objective     =           230.020425
+Iteration:  4563   Dual objective     =           231.064160
+Iteration:  4678   Dual objective     =           232.438567
+Iteration:  4786   Dual objective     =           233.437921
+Iteration:  4894   Dual objective     =           234.441800
+Iteration:  5007   Dual objective     =           236.107036
+Iteration:  5120   Dual objective     =           237.221272
+Iteration:  5229   Dual objective     =           238.343662
+Iteration:  5342   Dual objective     =           239.422043
+Iteration:  5449   Dual objective     =           240.299322
+Iteration:  5554   Dual objective     =           241.711548
+Iteration:  5666   Dual objective     =           242.722151
+Iteration:  5775   Dual objective     =           243.800284
+Elapsed time = 10.27 sec. (10003.23 ticks, 5887 iterations)
+Iteration:  5889   Dual objective     =           244.707155
+Iteration:  6003   Dual objective     =           245.692423
+Iteration:  6114   Dual objective     =           246.754656
+Iteration:  6221   Dual objective     =           248.055350
+Iteration:  6336   Dual objective     =           248.934402
+Iteration:  6456   Dual objective     =           249.771387
+Removing shift (13).
+
+Barrier solved model.
+
+************** RMP Solution Summary *************
+* RMP Solution Count: 1
+* RMP Solution Summary: 
+* RMP Size: 84553 + 10000 (Auxiliary) (94553) out of 1000000 columns
+* RMP Objective: 350.40935833720346
+*************************************************
+
+* Summary: Iteration 1 takes 12.987366437911987 seconds
+
+
+************* Sifting framework successfully ends *************
+* Solution Summary: 
+* Objective value                   : 350.40935833720346
+* Total number of sifting iterations: 2
+***************************************************************
+* Iteration Summary:
+- Sifting iteration 1: 12.987366437911987 seconds
+- Total solution time: 12.987366437911987 seconds
+***************************************************************
